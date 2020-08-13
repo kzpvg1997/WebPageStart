@@ -1,3 +1,7 @@
+# Run Configuration
+
+Run `npm update` to download all configurations and properties from the project 
+
 # Webpage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
