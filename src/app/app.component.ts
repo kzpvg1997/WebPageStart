@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import * as jQuery from 'jquery';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +8,4 @@ import * as jQuery from 'jquery';
 export class AppComponent{
   
   title = 'webpage';
-
 }
