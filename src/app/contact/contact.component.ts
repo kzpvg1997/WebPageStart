@@ -10,7 +10,7 @@ import { MapInfoWindow } from '@angular/google-maps';
 export class ContactComponent implements OnInit {
 
   markers: any;
-  zoom = 12
+  zoom = 18;
   center: google.maps.LatLngLiteral
   options: google.maps.MapOptions = {
     mapTypeId: 'roadmap',
@@ -35,8 +35,8 @@ export class ContactComponent implements OnInit {
   addMarker() {
     this.markers.push({
       position: {
-        lat: this.center.lat + ((Math.random() - 0.5) * 2) / 10,
-        lng: this.center.lng + ((Math.random() - 0.5) * 2) / 10,
+        lat: this.center.lat ,
+        lng: this.center.lng ,
       },
       label: {
         color: 'red',
